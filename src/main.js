@@ -8,5 +8,10 @@ let magicScroll = new MagicScroll({
 
 magicScroll.onUpdate = a => {
   console.log(a);
-  document.querySelector("#time-now").innerHTML = Math.round(a);
+  document.querySelector("#after-scroll").innerHTML = Math.round(a);
 };
+
+const beforeEl = document.querySelector(".scroll-view.before");
+beforeEl.addEventListener("scroll", e => {
+  document.querySelector("#before-scroll").innerHTML = e.target.scrollTop;
+});
