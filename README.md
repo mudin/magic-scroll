@@ -1,6 +1,9 @@
 # MagicScroll
 
-## install
+## [Demo](https://mudin.github.io/magic-scroll/)
+
+
+## Install
 
 ```
   npm i magic-scroll.js -S
