@@ -1,6 +1,6 @@
 {
   "name": "MagicScroll",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/MagicScroll.cjs.js",
   "module": "dist/MagicScroll.esm.js",
   "browser": "dist/MagicScroll.umd.js",
