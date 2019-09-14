@@ -2,7 +2,7 @@
 
 ## [Demo](https://mudin.github.io/magic-scroll/)
 
-![Demo](https://mudin.github.io/magic-scroll/magic-scroll.gif?raw=true)
+![Demo](https://mudin.github.io/magic-scroll/magic-scroll.gif)
 
 ## Install
 
