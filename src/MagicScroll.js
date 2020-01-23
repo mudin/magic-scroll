@@ -61,10 +61,7 @@ class MagicScroll {
 
   update() {
     this.moving = true;
-    console.log(this.pos - this.target.scrollTop);
-
     var delta = (this.pos - this.target.scrollTop) / this.smooth;
-    console.log(delta);
 
     this.target.scrollTop += delta;
 
@@ -72,7 +69,7 @@ class MagicScroll {
       this.onUpdate(this.target.scrollTop);
     }
     const scope = this;
-    if (Math.abs(delta) > 0.5)
+    if (Math.abs(delta) > 1)
       requestFrame(() => {
         scope.update();
       });
