@@ -2,7 +2,7 @@ class MagicScroll {
   constructor(options) {
     Object.assign(this, options);
 
-    if (this.target === document)
+    if (!this.target)
       this.target =
         document.scrollingElement ||
         document.documentElement ||
