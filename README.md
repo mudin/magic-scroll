@@ -35,7 +35,7 @@ We can apply this for any kind of place where mouse wheel is need to be smooth (
 ```
 or
 ```
-https://unpkg.com/magic-scroll.js@1.0.8/dist/MagicScroll.umd.js
+https://unpkg.com/magic-scroll.js/dist/MagicScroll.umd.js
 ```
 ## Usage
 
