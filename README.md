@@ -15,10 +15,17 @@
 
 # MagicScroll
 
-## [JS fiddle demo](https://jsfiddle.net/mudin/2nstb5pf/)
+## Why MagicScroll?
+If you have tried to use Apple magic mouse or macbook Trackpad, The scroll is very smooth.
+However normal scroll is not. In order to make the smilar effect I have tried to implement MagicScroll to make web page scroll smooth.  We can apply this for any kind of place where mouse wheel is need to be smooth (For example, IndoorJS demo)
+
+
 ## [Demo](https://mudin.github.io/magic-scroll/)
 
 ![Demo](https://mudin.github.io/magic-scroll/magic-scroll.gif)
+
+## [JS fiddle demo](https://jsfiddle.net/mudin/2nstb5pf/)
+## [IndoorJS demo](## [JS fiddle demo](https://jsfiddle.net/mudin/2nstb5pf/))
 
 ## Install
 
