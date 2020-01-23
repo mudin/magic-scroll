@@ -25,7 +25,7 @@ However normal scroll is not. In order to make the smilar effect I have tried to
 ![Demo](https://mudin.github.io/magic-scroll/magic-scroll.gif)
 
 ## [JS fiddle demo](https://jsfiddle.net/mudin/2nstb5pf/)
-## [IndoorJS demo](## [JS fiddle demo](https://jsfiddle.net/mudin/2nstb5pf/))
+## [IndoorJS demo](https://mudin.github.io/indoorjs/)
 
 ## Install
 
