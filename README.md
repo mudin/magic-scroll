@@ -33,7 +33,10 @@ We can apply this for any kind of place where mouse wheel is need to be smooth (
 ```
   npm i magic-scroll.js -S
 ```
-
+or
+```
+https://unpkg.com/magic-scroll.js@1.0.8/dist/MagicScroll.umd.js
+```
 ## Usage
 
 ```
