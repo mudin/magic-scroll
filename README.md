@@ -15,6 +15,7 @@
 
 # MagicScroll
 
+## [JS fiddle demo](https://jsfiddle.net/mudin/2nstb5pf/)
 ## [Demo](https://mudin.github.io/magic-scroll/)
 
 ![Demo](https://mudin.github.io/magic-scroll/magic-scroll.gif)
@@ -29,7 +30,7 @@
 
 ```
 let magicScroll = new MagicScroll({
-  target: document.querySelector(".scroll-view.after"),
+  target: document.querySelector(".scroll-view.after"), // for body, no need to set target
   speed: 80,
   smooth: 12
 });
