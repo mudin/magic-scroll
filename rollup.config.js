@@ -26,6 +26,11 @@ export default [
     output: [
       { file: pkg.main, format: "cjs" },
       { file: pkg.module, format: "es" }
+    ],
+    plugins: [
+      resolve(), // tells Rollup how to find date-fns in node_modules
+      commonjs(), // converts date-fns to ES modules
+      production && terser() // minify, but only in production
     ]
   }
 ];
